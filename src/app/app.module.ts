@@ -4,6 +4,7 @@ import { ReactiveFormsModule } from '@angular/forms'; // For form handling
 
 import { AppComponent } from './app.component';
 import { SignupComponent } from './signup/signup.component'; // ✅ Import this
+import { routes } from './app.routes';
 
 @NgModule({
   declarations: [
