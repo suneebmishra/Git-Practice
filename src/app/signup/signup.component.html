@@ -1,1 +1,43 @@
-<p>signup works!</p>
+<div class="signup-container">
+    <img src="assets/logo.png" alt="Bluestock Logo" class="logo" />
+
+
+  <h2>Create an account</h2>
+
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" />
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" placeholder="hello@bluestock.in" />
+
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" />
+
+    <div class="terms">
+      By continuing, you agree to our <a href="#">terms of service</a>.
+    </div>
+
+    <div class="captcha">
+      <!-- Replace this with actual reCAPTCHA component if used -->
+      <input type="checkbox" id="captcha" />
+      <label for="captcha">I'm not a robot</label>
+    </div>
+
+    <button type="submit">Sign up</button>
+
+    <div class="separator">or sign up with</div>
+
+    <button class="google-btn">
+      <img src="assets/google.png" alt="Google" />
+      Continue with Google
+    </button>
+
+    <div class="signin-link">
+      Already have an account? <a href="#">Sign in here</a>
+    </div>
+  </form>
+</div>
+
+
+
